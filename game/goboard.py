@@ -30,15 +30,15 @@ class GoString():
         self.stones = frozenset(stones)
         self.liberties = frozenset(liberties)
 
-    def remove_liberty(self, point):
-        self.liberties.remove(point)
+    #def remove_liberty(self, point):
+    #    self.liberties.remove(point)
 
     def without_liberty(self, point):
         new_liberties = self.liberties - set([point])
         return GoString(self.color, self.stones, new_liberties)
 
-    def add_liberty(self, point):
-        self.liberties.add(point)
+    #def add_liberty(self, point):
+    #    self.liberties.add(point)
 
     def with_liberty(self, point):
         new_liberties = self.liberties | set([point])

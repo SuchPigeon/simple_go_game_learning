@@ -1,6 +1,7 @@
 # simple_go_game_learning
 
 ```python bot_v_bot.py``` to simulate random naive bots play
+ 
 ```python human_v_bot.py``` to play against bot
 
 

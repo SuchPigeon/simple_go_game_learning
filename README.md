@@ -1,6 +1,7 @@
 # simple_go_game_learning
 
 ```python bot_v_bot.py``` to simulate random naive bots play
+```python bot_v_bot_gui.py``` to simulate random naive bots play but with GUI (requires *pygame* library or venv activation)
 ```python human_v_bot.py``` to play against bot
 
 
@@ -10,3 +11,6 @@
 Companion code/tutorials for building Go AI with Keras/TensorFlow.  
 - Book: https://www.manning.com/books/deep-learning-and-the-game-of-go  
 - GitHub: https://github.com/maxpumperla/deep_learning_and_the_game_of_go
+
+**Pygame**
+- Documentation: https://pyga.me/docs/
